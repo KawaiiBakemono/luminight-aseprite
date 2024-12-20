@@ -16,5 +16,5 @@ A midnight black theme with pink/purple accents for Aseprite.
   <img src="https://github.com/user-attachments/assets/f53b414f-37bd-4fac-972e-bd687c3246a3">
 </p>
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/4fa0f910-1382-46dd-9815-fd2c63be8205">
+  <img src="https://github.com/user-attachments/assets/ca60660f-5aff-406e-98a8-2d4c32bb9842">
 </p>
