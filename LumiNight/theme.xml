@@ -82,10 +82,10 @@
         <color id="background" value="#000000"/>
         <!-- Color of the text that appears on the tooltip -->
         <color id="textbox_text" value="#ff7ea0"/>
-        <!-- Color of window that shows error messages -->
-        <color id="textbox_face" value="#000000"/>
-        <!-- Don't know what this does  -->
-        <color id="textbox_code_face" value="#000000"/>
+        <!-- Color of the script part of the debugger window -->
+        <color id="textbox_face" value="#150416"/>
+        <!-- Color of window that shows error messages  -->
+        <color id="textbox_code_face" value="#ff7ea0"/>
         <!-- Color of the suffix text when you create a new project aka the 'px' part -->
         <color id="entry_suffix" value="#7f3657"/>
         <!-- Color of the link text, not the home link -->
@@ -220,9 +220,9 @@
         <!-- Color of the line that separates the colors in the color bar -->
         <color id="palette_entries_separator" value="#000000"/>
         <!-- Color of the lines shown when changing the size of the canvas -->
-        <color id="select_box_ruler" value="#ff00ff" />
+        <color id="select_box_ruler" value="#ff00ff"/>
         <!-- Color of the lines shown when changing the size of the canvas -->
-        <color id="select_box_grid" value="#ff7ea0" />
+        <color id="select_box_grid" value="#ff7ea0"/>
     </colors>
     <!-- Any slices added to 'sheet.png' (defined by 'sheet.aseprite-data') will appear here automatically -->
     <!-- This list is sorted alphabetically -->
@@ -538,6 +538,7 @@
         <part id="tool_rectangular_marquee" x="144" y="0" w="16" h="16"/>
         <part id="tool_slice" x="224" y="32" w="16" h="16"/>
         <part id="tool_spray" x="160" y="16" w="16" h="16"/>
+        <part id="tool_text" x="144" y="112" w="16" h="16"/>
         <part id="tool_timeline" x="176" y="128" w="16" h="16"/>
         <part id="tool_zoom" x="208" y="32" w="16" h="16"/>
         <part id="toolbutton_hot" x="112" y="0" w1="3" w2="10" w3="3" h1="3" h2="9" h3="4"/>
@@ -1148,7 +1149,7 @@
             <text color="slider_empty_text" align="center middle"/>
             <text color="slider_empty_text" align="center middle" state="focus"/>
         </style>
-        <style id="buttonset" gap-rows="-3" gap-columns="-1"/>
+        <style id="buttonset" gap-rows="-3" gap-columns="0"/>
         <style id="buttonset_item" font="mini" border="3" border-bottom="5">
             <background-border part="buttonset_item_normal"/>
             <background-border part="buttonset_item_hot" state="selected"/>
@@ -1167,7 +1168,7 @@
         <style id="buttonset_item_icon_mono" extends="buttonset_item_icon">
             <icon color="button_normal_text"/>
         </style>
-        <style id="buttonset_item_text" extends="buttonset_item" padding="1">
+        <style id="buttonset_item_text" extends="buttonset_item" padding="2">
             <text color="button_normal_text"/>
             <text color="button_hot_text" state="selected"/>
             <text color="button_hot_text" state="mouse"/>

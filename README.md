@@ -4,7 +4,6 @@
 
 # Luminight Theme for Aseprite
 A midnight black theme with pink/purple accents for Aseprite.
-- Other accent colors are planned!
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/9ca5b861-4326-4fb8-a649-743a9ccd5c63">
