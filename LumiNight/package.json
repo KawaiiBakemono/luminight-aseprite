@@ -2,14 +2,14 @@
     "name": "luminight",
     "displayName": "LumiNight",
     "description": "A rounded, midnight black theme with purple/pink accents",
-    "version": "1.1.0",
+    "version": "1.3.0",
     "author": {
-        "name": "KawaiiBakemono",
+        "name": "ZephyrBytes",
         "email": "contact@kawaiibakemono.art",
         "url": "https://github.com/KawaiiBakemono/"
     },
     "contributors": [],
-    "publisher": "KawaiiBakemono",
+    "publisher": "ZephyrBytes",
     "license": "MIT",
     "categories": [
         "Themes"
